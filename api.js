@@ -5,7 +5,7 @@ function loadData(){
     .then(json=>console.log(json))
 }
 function smartPhone(){
-    const url='https://jsonplaceholder.typicode.com/todos';
+    const url='https://jsonplaceholder.typicode.com/users';
     fetch(url)
     .then(Response=>Response.json())
     .then(data=>console.log(data))
